@@ -9,6 +9,7 @@ EmailTransporter.sendMail(emailObj, async function (err, info) {
   if (err) {
     console.log(err.message);
   } else {
+    //Mark the status as SENT
     console.log(info);
   }
 });

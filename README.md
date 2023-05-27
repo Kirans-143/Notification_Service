@@ -20,7 +20,7 @@
 
 # routes => tickect Notification Routes => for the API
 
-# check the API in POSTMAN
+# check the API in POSTMAN and we should get mail
 
 # npm i nodemailer
 
@@ -52,3 +52,11 @@ _/
 # create test.js =>
 
 # now in POSTMAN send create notification => we should get the email to the TO address
+
+## now for the background job we need to install cron module
+
+# npm i node-cron
+
+# cron.schedule => 1.Query all the notification documents whose status is NOT_SENT 2.Loop over the query result and send out email using the transport object 3.Mark the status of the notification as sent
+
+# whenevr we press Create Notification in postaman it will create notification and send mail to respected mail id and we can check the status of the mssage also in postaman with get notification by id in postman
