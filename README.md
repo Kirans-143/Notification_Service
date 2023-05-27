@@ -21,3 +21,34 @@
 # routes => tickect Notification Routes => for the API
 
 # check the API in POSTMAN
+
+# npm i nodemailer
+
+# create notifier => emailService.js
+
+//Create a transport object
+/_
+host: gmail,
+auth:{
+username:
+password:
+},
+port: 465
+_/
+
+// transportObj.sendMail(emailData)
+
+/_ emailData
+{
+from:'',
+to:[],
+subject:'',
+text:''
+}
+_/
+
+# compltete the logi of emailService => go to gmail and in manage=>security=> turn on two step varification on => turn on app password and then copy password from there and paste it in emailService.js and enter mailId also.
+
+# create test.js =>
+
+# now in POSTMAN send create notification => we should get the email to the TO address

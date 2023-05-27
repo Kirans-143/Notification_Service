@@ -1,4 +1,3 @@
-const { request } = require("express");
 const tickectNotificationModel = require("../models/ticketNotification.model");
 
 exports.acceptNotificationRequest = async (req, res) => {
