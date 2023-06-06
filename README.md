@@ -60,3 +60,5 @@ _/
 # cron.schedule => 1.Query all the notification documents whose status is NOT_SENT 2.Loop over the query result and send out email using the transport object 3.Mark the status of the notification as sent
 
 # whenevr we press Create Notification in postaman it will create notification and send mail to respected mail id and we can check the status of the mssage also in postaman with get notification by id in postman
+
+# now will deploy the notification service also and then will integrate both
