@@ -5,6 +5,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
+require("./crons/emailSenderBackgroundjob");
+
 
 //Establish connection
 mongoose.connect(dbConfig.DB_URL);
