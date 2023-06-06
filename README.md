@@ -62,3 +62,4 @@ _/
 # whenevr we press Create Notification in postaman it will create notification and send mail to respected mail id and we can check the status of the mssage also in postaman with get notification by id in postman
 
 # now will deploy the notification service also and then will integrate both
+# now did the same thing as we didi in crm baceknd app and lets paste the db url in config-> db.config
